@@ -1,17 +1,16 @@
 <template>
   <div>
-    <NewestCopies/>
+    <CopyDetails/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import NewestCopies from '@/components/NewestCopies.vue'
+import CopyDetails from '@/components/CopyDetails.vue'
 
 export default {
-  name: 'Home',
   components: {
-    NewestCopies
+    CopyDetails
   }
 }
 </script>
